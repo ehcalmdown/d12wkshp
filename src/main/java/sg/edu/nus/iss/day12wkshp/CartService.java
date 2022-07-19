@@ -29,6 +29,16 @@ public class CartService {
         itm.setQuantity(8);
         lstItems.add(itm);
 
+        itm = new Item();
+        itm.setItemName("Prada Wallet");
+        itm.setQuantity(2);
+        lstItems.add(itm);
+
+        itm = new Item();
+        itm.setItemName("Prada Shoe");
+        itm.setQuantity(2);
+        lstItems.add(itm);
+
         return lstItems;
     }
 }
