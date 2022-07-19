@@ -9,7 +9,7 @@ import java.util.List;
 import sg.edu.nus.iss.day12wkshp.CartService;
 
 @Controller
-@RequestMapping(path = { "/cart "})
+@RequestMapping(path = { "/cart" })
 public class CartController {
     
     @GetMapping(produces = { "text/html" })
